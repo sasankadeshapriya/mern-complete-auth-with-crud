@@ -1,0 +1,21 @@
+<!-- mern-icon.svg -->
+<svg width="256" height="256" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="mernGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#61DAFB"/> <!-- React Blue -->
+      <stop offset="50%" stop-color="#68A063"/> <!-- MongoDB Green -->
+      <stop offset="100%" stop-color="#E44D26"/> <!-- Node / Express Orange -->
+    </linearGradient>
+  </defs>
+  <rect width="256" height="256" rx="40" fill="black"/>
+  <g fill="url(#mernGradient)">
+    <!-- M -->
+    <path d="M50 180 L50 90 L70 120 L90 90 L90 180 Z" />
+    <!-- E -->
+    <path d="M110 180 L110 90 H150 V110 H130 V130 H150 V150 H130 V160 H150 V180 Z" />
+    <!-- R -->
+    <path d="M170 180 V90 H200 Q220 90 220 110 Q220 130 200 130 L190 130 L210 180 H190 L175 135 H170 Z M190 110 H200 Q205 110 205 115 Q205 120 200 120 H190 Z" />
+    <!-- N -->
+    <path d="M230 180 V90 L255 135 V180 Z" />
+  </g>
+</svg>
